@@ -1,0 +1,27 @@
+.title {
+  font-size: 2.2em;
+  margin-top: 2em;
+  font-weight: 600;
+}
+
+.chat-switch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.chat-disconnected-status,
+.chat-connected-status {
+  margin-top: 1em;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.chat-disconnected-status {
+  color: red;
+}
+
+.chat-connected-status {
+  color: #33cf4d;
+}
