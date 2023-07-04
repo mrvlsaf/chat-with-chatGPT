@@ -11,7 +11,6 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 const ChatBox = () => {
 
     const { chats, setChats, activateChat, setActivateChat } = useMyContext();
-    // chats={"sender": "user or bot", message: ""}
     const [currentMessage, setCurrentMessage] = useState();
     const [loading, setLoading] = useState(false);
     const containerRef = useRef(null);
